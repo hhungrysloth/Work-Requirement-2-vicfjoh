@@ -7,10 +7,7 @@
     <script src="script.js" defer></script>
 </head>
   
-<body>
-  <header>
-    <h1>An introduction to Victoria     Johannessen</h1>
-  </header>
+<body> 
   <div class="container">
   <div class="navbar">
     <h2>@html.vic</h2>
@@ -43,8 +40,25 @@
       <p>I decided that I wanted to go back to studying because of my interest in development and design. I love to make art and do creative work, and my hope is to become a good asset in this field and use my new knowledge to create new apps.</p>
      <p>Even though I have some experience in coding, it's been a while and I feel like I'm starting completely from scratch. My experience is also mostly in backend development and I have not focused a lot on frontend before, even if my biggest interest in the field is frontend and design.</p>
   </section>
-   <section class="booking-section" id="booking">
+        <section class="booking-section" id="booking">
       <h2>Book a photoshoot</h2>
+      <form action="/my-handling-form-page" method="post">
+  <p>
+    <label for="name">Your name</label>
+    <input type="text" id="name" name="user_name" />
+  </p>
+  <p>
+    <label for="mail">Your email</label>
+    <input type="email" id="mail" name="user_email" />
+  </p>
+  <p>
+    <label for="msg">What photoshoot would you like to request?</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </p>
+        <p class="button">
+  <button type="submit">Send your request</button>
+</p>
+</form>
        </section>
   </main>
     <footer>© 2026 Victoria Johannessen</footer>
