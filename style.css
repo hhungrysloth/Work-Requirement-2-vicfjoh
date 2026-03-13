@@ -1,0 +1,51 @@
+header {
+  color: #FF69B4;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 1000px;
+  min-height: 20vh;
+  display: flex;
+  font-family: monospace;
+}
+
+body {
+  font-family: sans-serif;
+  background: black;
+  color: white;
+  text-align: left;
+  padding: 1em; 
+}
+
+h2 {
+  color: pink;
+  font-family: monospace;
+}
+
+.about-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 150px; 
+}
+
+.photography-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 550px;
+}
+
+.studies-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100px; 
+}
+
+footer {
+  background: white;
+  color: #FF69B4;
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+}
