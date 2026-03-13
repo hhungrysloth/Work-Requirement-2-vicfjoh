@@ -92,7 +92,7 @@ label {
   display: inline-flex;
   min-width: 100px;
   text-align: right;
-  color:#FF69B4;
+  color: black;
 }
 
 input,
@@ -114,9 +114,10 @@ textarea {
   height: 5em;
 }
 
-.button {
+.form-button {
   padding-left: 90px;
   margin-left: 0.5em;
+  color:#FF69B4;
 }
 
 footer {
